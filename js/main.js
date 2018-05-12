@@ -1,0 +1,9 @@
+ $(document).ready(function(){
+	 $('.mobileToggle').click(function(){
+			if($('.rightNav').is(":visible")){
+				$('.rightNav').hide();
+			}else{
+				$('.rightNav').show();
+			}
+	 });
+ });
